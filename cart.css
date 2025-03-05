@@ -12,33 +12,32 @@ body {
     background:linear-gradient(to right,chartreuse,skyblue,crimson);
 }
 
-.nav {
-    height: 10vmin;
-    width: 100%;
-    display: flex;
+.nav{
+    height:10vmin;
+    width:100%;
+    display:flex;
     justify-content: space-evenly;
     background-color: rgb(24, 24, 58);
     align-items: center;
-    font-size: 4vmin;
-    position: fixed;
-    top: 0;
-    z-index: 10;
+    font-size:4vmin;
+    position:fixed;
+    top:0;
 }
-
-.nav-ele {
-    padding: 2vmin;
-    transition: border-radius 1s ease-in-out 0s;
+.nav-ele{
+    padding:2vmin;
+    transition:border-radius 1s ease-in-out 0s;
 }
-
-.nav-ele:hover {
+.nav-ele:hover{
     background-color: orange;
-    border-radius: 20vmin;
-    cursor: pointer;
+    border-radius:20vmin;
+    cursor: pointer;;
 }
-
-.nav-ele a {
+.nav-ele:active{
+    background-color: rgb(138, 95, 15);
+}
+a{
     text-decoration: none;
-    color: white;
+    color:white;
 }
 
 main {
